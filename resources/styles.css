@@ -1,0 +1,114 @@
+#main {
+  viewport-fill: black;
+  fill: palegoldenrod
+}
+
+#ex-right {
+  font-size: 15;
+  x: 80%;
+  y: 0;
+  width: 20%;
+  height: 100%;
+}
+
+#power {
+  x: 3%;
+  y: 1%;
+}
+
+#heartRate {
+  x: 3%;
+  y: 90%;
+}
+
+.digit {
+  font-family: Colfax-Regular;
+  x: 38%;
+  y: 6%;
+  text-length: 10;
+  text-anchor: start;
+  fill: mintcream;
+}
+
+#hourLabel {
+  font-size: 120;
+  font-family: System-Bold;
+  text-length: 15;
+  text-anchor: middle;
+  x: 25%;
+  y: 50%;
+  fill: orange;
+}
+
+#minLabel {
+  font-size: 80;
+  font-family: System-Light;
+  text-length: 15;
+  text-anchor: middle;
+  x: 25%;
+  y: 80%;
+  fill: lightblue;
+}
+
+#dateLabel {
+  font-size: 30;
+  font-family: System-Light;
+  text-length: 10;
+  text-anchor: middle;
+  fill: gold;
+  x: 25%;
+  y: 95%;
+}
+
+#right {
+  width: 50%;
+  height: 80%;
+  x: 55%;
+  y: 15%;
+}
+
+#steps {
+  x: 5%;
+  y: 0%;
+}
+
+#distance {
+  x: 5%;
+  y: 20%;
+}
+
+#elevationGain  {
+  x: 5%;
+  y: 40%;
+}
+
+#calories  {
+  x: 5%;
+  y: 60%;
+}
+
+#activeMinutes {
+  x: 5%;
+  y: 80%;
+}
+
+.icon {
+  width: 20;
+  height: 20;
+  x: 0;
+  y: 1;
+}
+
+.count {
+  font-size: 25;
+  text-anchor: start;
+  text-length: 10;
+  font-family: Colfax-Regular;
+  fill: snow;
+  x: 20%;
+  y: 10%;
+}
+
+.activity {
+  fill: tomato;
+}

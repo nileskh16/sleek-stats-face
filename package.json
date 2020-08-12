@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "dc103962-e4af-4180-980e-29d388cef56d",
+    "appType": "clockface",
+    "appDisplayName": "Sleek Stats",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Sleek Stats"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

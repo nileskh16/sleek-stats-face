@@ -4,8 +4,8 @@
 }
 
 #ex-right {
-  font-size: 15;
-  x: 80%;
+  font-size: 20;
+  x: 75%;
   y: 0;
   width: 20%;
   height: 100%;
@@ -23,8 +23,8 @@
 
 .digit {
   font-family: Colfax-Regular;
-  x: 38%;
-  y: 6%;
+  x: 38%+1;
+  y: 6%+3;
   text-length: 10;
   text-anchor: start;
   fill: mintcream;

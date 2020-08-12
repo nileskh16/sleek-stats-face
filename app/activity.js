@@ -26,7 +26,10 @@ function getGoalEntity(prefix) {
 function drawActivity(activityType) {
   if (activityType !== null) {
     const prefix = activityType.prefix;
-    const actual = today.adjusted[prefix] !== undefined ? today.adjusted[prefix] : '__' ;
+    let actual = today.adjusted[prefix] !== undefined ? today.adjusted[prefix] : '__' ;
+    if (prefix === "distance" && actual !== "__") {
+      actual = (actual / 1000).toPrecision(3);
+    }
     activityType.count.text = `${actual}`;
   }
 }
